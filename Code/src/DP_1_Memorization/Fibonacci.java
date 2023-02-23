@@ -1,10 +1,11 @@
-public class Fibbonacci {
+public class Fibonacci {
 
-    //Time Complexity O(n)
-    //Space Complexity O(n) for stack space + O(n) for array
+    // Time Complexity O(n)
+    // Space Complexity O(n) for stack space + O(n) for array
+    // Top Down Approach
     public static void main(String[] args) {
-        int n = 5;
-        //Taking dp array of size n+1 
+        int n = 6;
+        // Taking dp array of size n+1
         int[] dp = new int[n + 1];
         for (int i = 0; i < dp.length; i++) {
             dp[i] = -1;
