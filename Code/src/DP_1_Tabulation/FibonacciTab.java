@@ -1,6 +1,7 @@
 public class FibonacciTab {
     public static void main(String[] args) {
 
+        // TC is O(n) where as SC is O(n) not extra stack space
         int n = 6;
         int[] dp = new int[n + 1];
         dp[0] = 0;
